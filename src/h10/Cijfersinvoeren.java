@@ -42,7 +42,6 @@ public class Cijfersinvoeren extends Applet {
          int x = 50;
          int y = 80;
 
-         //if (getKlikt) {
              if (invoer < 5.5) {
                  g.drawString("Het cijfer is onvoldoende", x, y);
              } else {
@@ -51,7 +50,6 @@ public class Cijfersinvoeren extends Applet {
 
              y = y + 20;
              g.drawString("Gemiddelde" + gemiddelde, x, y);
-         //}
      }
 
      class KnopListener implements ActionListener {
